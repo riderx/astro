@@ -230,3 +230,7 @@ export function createRouteData(overrides) {
 		prerender: overrides.prerender ?? false,
 	});
 }
+
+export function createMockAstroSource(html) {
+	return `---\n---\n<html>${html}</html>`;
+}
