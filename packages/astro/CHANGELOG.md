@@ -1,5 +1,13 @@
 # astro
 
+## 6.0.9
+
+### Patch Changes
+
+- [#16007](https://github.com/withastro/astro/pull/16007) [`2dcd8d5`](https://github.com/withastro/astro/commit/2dcd8d54c6fb00183228d757bf684e67c79029d8) Thanks [@florian-lefebvre](https://github.com/florian-lefebvre)! - Fixes a case where fonts files would unecessarily be copied several times during the build
+
+- [#16014](https://github.com/withastro/astro/pull/16014) [`fa73fbb`](https://github.com/withastro/astro/commit/fa73fbbac25c96eeadb766666ea3b2aded440bab) Thanks [@matthewp](https://github.com/matthewp)! - Fixes a build error where using `astro:config/client` inside a `<script>` tag would cause Rollup to fail with "failed to resolve import `virtual:astro:routes` from `virtual:astro:manifest`"
+
 ## 6.0.8
 
 ### Patch Changes
